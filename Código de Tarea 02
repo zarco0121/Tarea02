@@ -1,1 +1,13 @@
 ##Este es el código para realizar en equipo
+
+#include <stdio.h>
+int main(){
+//variables
+int numero=0;
+
+// pantalla
+printf("Dame un numero para sacar su factorial -> ");
+scanf("%d", &numero);
+
+return 0;
+}
