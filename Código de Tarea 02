@@ -1,1 +1,20 @@
 ##Este es el código para realizar en equipo
+##Equipo 5
+##Codigo que calcula un factorial 
+
+#include <stdio.h>
+int main () {
+  int fac=1;
+  int n;
+  printf("Dame un número: ");
+  scanf("%d",&n);
+  if (n<=0){
+    printf("No es posible")}
+  else {
+    for (int i=1; i>=n; i++){
+      fac=fac+i;
+    }
+  printf("El factorial es %d",suma);
+}
+return 0;
+}
