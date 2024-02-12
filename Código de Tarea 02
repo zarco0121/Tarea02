@@ -2,22 +2,31 @@
 //Equipo5
 
 #include <stdio.h>
-int main(){
-  //variables
-  int numero=1;
-  int n;
 
-  // pantalla
-  printf("Dame un numero para sacar su factorial -> ");
-  scanf("%d", &n);
-  if (n=<0){
-    printf("No es posible");
+int main(){
+  char option;
+  do{
+
+    //variables
+    int numero=1;
+    int n;
+
+    // pantalla
+    printf("Dame un numero para sacar su factorial -> ");
+    scanf("%d", &n);
+    if (n<0){
+      printf("No es posible");
+    }
+    else { 
+      for (int i=1; i=>n; i++){
+        numero=numero+i;
+    }  
+    printf("El factorial es: %d",numero);
   }
-  else { 
-    for (int i=1; i=>n; i++){
-      numero=numero+i;
-  }  
-  printf("El factorial es: %d",numero);
-}
+  printf("Desea realizar otro calculo (s/n): ");
+  scanf(" %c", option);
+  }
+  while (option == 's' || option == 'S');
+  printf("Gracias\n");
   return 0;
 }
