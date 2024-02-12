@@ -1,4 +1,4 @@
-##Este es el código para realizar en equipo
+//Este es el código para realizar en equipo
 
 #include <stdio.h>
 int main(){
